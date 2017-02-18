@@ -108,7 +108,7 @@ class DynamicArray:
 
     def _make_array(self, c):
         """doubles the size of the array"""
-        return c * [0]
+        return c * [None]
 
 lst = DynamicArray()
 print(lst)
